@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Octasaurio</a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#viajes">VIAJES</a></li>
+        <li><a href="#peliculas">PELICULAS</a></li>
+        <li><a href="#favoritos">FAVORITOS</a></li>
+        <li><a href="#acercademi">ACERCA DE MI</a></li>
+      </ul>
+    </div>
+
+</nav>
+  
+<div class="container">
+	<h2 class="page-header" id="viajes">Destinos que me gustaria visitar</h2>
+
+<center>
+  <div class="travel_mainDiv">
+    <img src="suiza.jpeg">
+    <h4 class="text-capitalize"><kbd>Suiza</kbd></h4>
+    <hr>
+    <h5 class="text-success text-capitalize">Visitar este lugar en septiembre 2025-2026</h5>
+    <p class="text-muted">Me gustaria ir porque es un lugar con pocos robos, muy tranquilo con un ambiente calido y acogedor.</p>
+  </div>
+</center>
+<br> <br>
+<h2 class="page-header" id="viajes">Destino que visite</h2>
+<center>
+
+  <div class="travel_mainDiv">
+    <img src="disney.webp">
+    <h4 class="text-capitalize"><kbd>Disney</kbd></h4>
+    <hr>
+    <h5 class="text-success text-capitalize">Visite este lugar en febrero 2021 </h5>
+    <p class="text-muted">Recomiendo este lugar porque es un lugar muy divertido, aveces mas de lo que aparenta por su cantidad de juegos que tiene.</p>
+  </div>
+</center>
+<h2 class="page-header" id="peliculas">Reseña de peliculas</h2>
+<div class="bg-primary movie_head" data-toggle="collapse" data-target="#harrypotter">
+ <span class="glyphicon glyphicon-film"></span>Harry potter 4<i class="fa fa-sort-desc"></i>
+</div>
+<div class="collapse" id="harrypotter">
+  <div class="movie_text">
+    <img id="harrypotter" src="harrypotter.webp" class="img-responsive img-thumbnail">
+    <h5 class="text-success text-capitalize">Mi pelicula favorita
+   <span class="glyphicon glyphicon-star"></span>
+   <span class="glyphicon glyphicon-star"></span>
+   <span class="glyphicon glyphicon-star"></span>
+   <span class="glyphicon glyphicon-star"></span>
+   <span class="glyphicon glyphicon-star"></span>
+    </h5>
+    <p> Esta pelicula le doy 5 estrellas por su buen trama, buen seguimiento de la historia y logrando todas mis expectativas. 
+      La que la hace mi pelicula favorita.
+    </p>
+  </div>
+</div>
+
+
+<br> 
+
+
+<div class="bg-primary movie_head" data-toggle="collapse" data-target="#toystory">
+  <span class="glyphicon glyphicon-film"></span>Toy Story 3<i class="fa fa-sort-desc"></i>
+ </div>
+ <div class="collapse" id="toystory">
+   <div class="movie_text">
+     <img id="toystory" src="toystory.webp" class="img-responsive img-thumbnail">
+     <h5 class="text-success text-capitalize">Una pelicula divertida
+    <span class="glyphicon glyphicon-star"></span>
+    <span class="glyphicon glyphicon-star"></span>
+    <span class="glyphicon glyphicon-star"></span>
+    <span class="glyphicon glyphicon-star"></span>
+     </h5>
+     <p> Toy story 3 es una buena pelicula debido a que es muy divertida y con buenos personajes, aunque nunca entendi la 
+      pelicula completamente, sigue siendo una pelicula con buen trama.
+     </p>
+   </div>
+ </div>
+<br> <br>
+  
+
+<h2 class="page-header" id="favoritos">Lista de Gustos</h2>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 favorites">
+  <img src="gatos.webp" class="img-responsive">
+  <hr>
+  <a href="https://www.youtube.com/watch?v=O8_WJIzN43E">Gatos</a>
+</div>
+
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 favorites">
+  <img src="tennis.webp" class="img-responsive">
+  <hr>
+  <a href="https://www.youtube.com/watch?v=YxSBeXtPFV4">Tennis</a>
+</div>
+
+<section id="acercademi" >
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13251.754571884794!2d-73.03996520031497!3d-36.81910904113077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669b5cdd2bbc63b%3A0x44cb37b752212698!2zQ29uY2VwY2nDs24sIELDrW8gQsOtbw!5e0!3m2!1ses-419!2scl!4v1702509869482!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<div class="contact1">
+  <a href="mailto:octasaurio@gmail.com?Asunto:hola">
+    <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;octasaurio@gmail.com</h5>
+  </a>
+</div>
+</section>
+
+</div>
+
+</body>
+</html>
